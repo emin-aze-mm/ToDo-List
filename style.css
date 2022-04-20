@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .to-do-List{
+        
+        width: 336.004px;
+        border: 1.002px solid #c4c4c4;
+        /* position: absolute; */
+        border-radius: 9.999px;
+        /* left: 50%;
+        top: 50%; 
+        transform: translate(-168px,145px); */
+    }
+    h1{
+        font-size: 26.001px;
+        font-weight:900;
+        line-height: 30.47px;
+        text-align: center;
+        margin-top: 12.995px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 19.999px;
+    }
+    .top{
+        width:336.004px;
+        background: #FFDC40;
+        height: 28.005px;
+        border-top-left-radius: 9.999px;
+        border-top-right-radius: 9.999px;
+    }
+    input{
+        width: 180px;
+        font-size: 14.999px;
+        margin-bottom: 29.998px;
+        outline: none;
+        margin-left: 24.998px;
+        border: 1.002px solid #fff;
+        border-radius: 9.999px;
+        height: 39.997px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .input{
+        width: 270.996px;
+        height: 45.999px;
+        position: relative;
+        border-radius: 9.999px;
+        
+    }
+    .first{
+        display: block;
+        margin-left: 280.996px;
+        margin-bottom: 5px;
+    }
+    .add{
+    outline: none;
+    padding-left: 16px;   
+    cursor: pointer;
+    width: 150.002px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.997px;
+    line-height: 16.001px;
+    margin: 0px 90.006px;
+    background-color: #833AE0;
+    border: none;
+    border-radius: 70.998px;
+    height: 39.997px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 18.996px;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    .add:hover{
+        background-color: #6719cc;
+    }
+    
+    .add img{
+        position: absolute;
+        left: 0px;
+        top:0px;
+        height: 39.997px;
+    }
+    .second{
+        position: absolute;
+        right: 29.998px;
+        margin-top: 9.999px;
+        cursor: pointer;
+    }
+    .todo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270.996px;
+        border: 1.002px solid #C4C4C4;
+        margin-left: 41px;
+        margin-bottom: 18.006px;
+        border-radius: 9.999px;
+        margin-top: 11.002px;
+        
+        
+    }
+    li{
+        font-family: 'Roboto', sans-serif;
+        overflow: hidden;
+        
+    }
+    .todo-list{
+        max-height: 189.999px;
+        list-style: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+    }
+    .todo{
+        width: 232.001px;
+        margin:0.5rem;
+        background:#fff;
+        color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .todo-item{
+        padding: 0 1.2rem;
+    }
+    .todo li{
+        flex: 1;
+    }
+    .deleted-button{
+        margin-top: 3.997px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+    }    
+@media (min-width:320px) and (max-width:375px) {
+    .to-do-List{
+        
+        width: 240px;
+        border: 1.002px solid #c4c4c4;
+        /* position: absolute; */
+        border-radius: 9.999px;
+        /* left: 50%;
+        top: 50%; 
+        transform: translate(-168px,145px); */
+    }
+    h1{
+        font-size: 21px;
+    }
+    .top{
+        width:240px;
+        background: #FFDC40;
+        height: 28.005px;
+        border-top-left-radius: 9.999px;
+        border-top-right-radius: 9.999px;
+    }
+    input{
+        width: 140px;
+        font-size: 14.999px;
+        margin-bottom: 29.998px;
+        outline: none;
+        border: 1.002px solid #fff;
+        border-radius: 9.999px;
+        height: 39.997px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .input{
+        width: 225px;
+        height: 42.999px;
+        position: relative;
+        border-radius: 9.999px;
+        
+    }
+    .first{
+        display: block;
+        margin-left: 200px;
+        margin-bottom: 5px;
+    }
+    .add{
+    outline: none;
+    padding-left: 16px;   
+    cursor: pointer;
+    width: 125px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.997px;
+    line-height: 16.001px;
+    margin: 0px 56px;
+    background-color: #833AE0;
+    border: none;
+    border-radius: 70.998px;
+    height: 39.997px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 18.996px;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    .add:hover{
+        background-color: #6719cc;
+    }
+    
+    .add img{
+        position: absolute;
+        left: 0px;
+        top:0px;
+        height: 39.997px;
+    }
+    .second{
+        position: absolute;
+        right: 10.998px;
+        margin-top: 10.999px;
+        cursor: pointer;
+    }
+    .todo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 226px;
+        border: 1.002px solid #C4C4C4;
+        margin-left: 5px;
+        margin-bottom: 18.006px;
+        border-radius: 9.999px;
+        margin-top: 11.002px;
+        
+        
+    }
+    li{
+        font-family: 'Roboto', sans-serif;
+        overflow: hidden;
+        
+    }
+    .todo-list{
+        max-height: 189.999px;
+        list-style: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+    }
+    .todo{
+        width: 206px;
+        margin:0.5rem;
+        background:#fff;
+        color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .todo-item{
+        padding: 0 1.2rem;
+    }
+    .todo li{
+        flex: 1;
+    }
+    .deleted-button{
+        margin-top: 3.997px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+    }    
+}
